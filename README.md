@@ -1,16 +1,22 @@
-# movie
+IMDb Search App
+Overview
 
-A new Flutter project.
+This is a simple Flutter application that allows users to search for movies using the OMDb API. The app displays movie results in a list with details such as the movie title, year, genre, and IMDb rating.
+Features
 
-## Getting Started
+    Search Movies: Users can search for movies by typing a query into the search bar.
+    Display Results: The app displays a list of movies matching the search query, showing the title, year, genre, and IMDb rating.
+    Popular Movies: If no search term is entered or for short queries, the app fetches a list of popular movies by default.
 
-This project is a starting point for a Flutter application.
+Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+Technology Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+    Flutter: The entire application is built using the Flutter framework.
+    Provider: Used for state management.
+    OMDb API: The API is used to fetch movie data from the internet.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+API Key
+
+    The app uses the OMDb API to fetch movie data. You'll need an API key from OMDb API to run the app.
+    Add your API key in lib/utils/constant.dart
